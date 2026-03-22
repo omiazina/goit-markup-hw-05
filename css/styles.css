@@ -206,14 +206,14 @@ a {
   background-color: #404bbf;
 }
 
-.btn.--s {
+.btn.btn-s {
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
 }
 
-.btn.--hover-green:hover,
-.btn.--hover-green:focus {
+.btn.btn-hover-green:hover,
+.btn.btn-hover-green:focus {
   background-color: #31d0aa;
 }
 
@@ -591,13 +591,13 @@ a {
   color: #8e8f99;
 }
 
-.form-label a {
+.form-label__link {
   text-decoration: underline;
   color: #4d5ae5;
 }
 
-.form-label a:hover,
-.form-label a:focus {
+.form-label__link:hover,
+.form-label__link:focus {
   text-decoration: none;
 }
 
@@ -664,6 +664,7 @@ a {
 .checkbox__label {
   display: flex;
   cursor: pointer;
+  gap: 3px;
 }
 
 .checkbox:hover .checkbox__check {
