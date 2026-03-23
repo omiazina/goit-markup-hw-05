@@ -663,7 +663,6 @@ a {
 
 .checkbox__label {
   cursor: pointer;
-  line-height: 1.34;
 }
 
 .checkbox:hover .checkbox__check {
