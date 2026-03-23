@@ -662,9 +662,9 @@ a {
 }
 
 .checkbox__label {
-  display: flex;
+  position: relative;
+  padding-left: 24px;
   cursor: pointer;
-  gap: 3px;
 }
 
 .checkbox:hover .checkbox__check {
@@ -672,7 +672,9 @@ a {
 }
 
 .checkbox__check {
-  margin: 0 8px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: inline-flex;
   justify-content: center;
   align-items: center;
